@@ -25,7 +25,7 @@ useEffect(() => {
   fetch("https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json")
   .then((response) => response.json())
   .then((details) => setEmployeeDetails(details))
-  .catch((error) => console.error("Error feching the details: ", error));
+  .catch((error) => alert("Error feching the details: ", error));
 }, []);
 
 //calculate start and end index of the current page
