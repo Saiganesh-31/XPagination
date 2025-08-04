@@ -1,0 +1,43 @@
+td, th {
+    padding: 8px;
+    border-bottom: 1px solid grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+tr {
+    background: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px #04987c;
+}
+
+p {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    background-color: #04987c;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #04987c;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
